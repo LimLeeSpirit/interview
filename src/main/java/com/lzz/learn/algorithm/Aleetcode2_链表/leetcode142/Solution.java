@@ -1,6 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode142;
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

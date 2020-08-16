@@ -1,6 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.JZoffer70_leetcode230;
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

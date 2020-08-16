@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.leetcode113_树_pathSum2;
 
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

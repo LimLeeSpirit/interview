@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.leetcode102;
 
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.leetcode297;
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 class JZoffer50 {
 

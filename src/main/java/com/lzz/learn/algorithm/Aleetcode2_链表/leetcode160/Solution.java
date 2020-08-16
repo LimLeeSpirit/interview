@@ -1,6 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode160;
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  *  找到两个单链表相交的起始节点。

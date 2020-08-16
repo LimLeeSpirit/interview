@@ -1,6 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode25_链表;
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * Reverse Nodes in k-Group

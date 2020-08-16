@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.A_排序;
 
 
-import algorithm.Aleetcode2_链表.ListNode;
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * 对链表进行排序，要求时间复杂度为O（nlgn）

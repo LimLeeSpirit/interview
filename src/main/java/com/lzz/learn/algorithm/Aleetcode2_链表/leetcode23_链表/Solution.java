@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode23_链表;
 
 
-import algorithm.Aleetcode2_链表.ListNode;
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * 合并 k 个有序链表

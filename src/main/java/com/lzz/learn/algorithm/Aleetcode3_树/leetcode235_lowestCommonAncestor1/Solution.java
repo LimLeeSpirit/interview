@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.leetcode235_lowestCommonAncestor1;
 
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 /**
  *  二叉搜索树的最近公共祖先，注意是二叉搜索树了。

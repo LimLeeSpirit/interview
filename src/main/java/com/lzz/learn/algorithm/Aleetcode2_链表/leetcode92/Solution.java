@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode92;
 
 
-import algorithm.Aleetcode2_链表.ListNode;
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * 反转链表II

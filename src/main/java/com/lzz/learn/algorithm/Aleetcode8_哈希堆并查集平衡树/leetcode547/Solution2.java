@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode8_哈希堆并查集平衡树.leetcode547;
 
 
-import algorithm.Aleetcode8_哈希堆并查集平衡树.UnionFind;
+import com.lzz.learn.algorithm.Aleetcode8_哈希堆并查集平衡树.UnionFind;
 
 /**
  * 这里需要注意一点，利用并查集进行解决问题的时候，需要想清楚到底创建一个什么样的并查集，要和实际问题结合起来，

@@ -1,6 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.leetcode236_lowestCommonAncestor2;
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 /**
  *  二叉树的两个节点的最近公共父节点

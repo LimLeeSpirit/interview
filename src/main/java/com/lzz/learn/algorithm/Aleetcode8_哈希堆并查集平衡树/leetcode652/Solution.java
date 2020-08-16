@@ -1,6 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode8_哈希堆并查集平衡树.leetcode652;
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;

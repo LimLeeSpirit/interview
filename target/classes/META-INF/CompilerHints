@@ -1,0 +1,11 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/lzz/learn/javaDetail/basic/hashMap/HashMapCycleTest.entrySet
+inline,com/lzz/learn/javaDetail/basic/hashMap/HashMapCycleTest.foreachEntrySet
+inline,com/lzz/learn/javaDetail/basic/hashMap/HashMapCycleTest.foreachKeySet
+inline,com/lzz/learn/javaDetail/basic/hashMap/HashMapCycleTest.lambda
+inline,com/lzz/learn/javaDetail/basic/hashMap/HashMapCycleTest.parallelStreamApi
+inline,com/lzz/learn/javaDetail/basic/hashMap/HashMapCycleTest.streamAPI

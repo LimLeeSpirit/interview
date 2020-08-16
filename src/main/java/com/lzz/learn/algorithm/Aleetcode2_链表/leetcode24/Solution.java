@@ -1,5 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode24;
 
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
+
 /**
  * 每2个翻转链表     25题  Reverse Nodes in k-Group
  *
@@ -10,7 +12,6 @@ package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode24;
  * 更好的是在循环里面取节点，这样不会报错！我也不明白为什么，一个更合理的解释是这种写法，代码更简洁，
  */
 
-import algorithm.Aleetcode2_链表.ListNode;
 
 public class Solution {
     public static ListNode swapPairs(ListNode head) {

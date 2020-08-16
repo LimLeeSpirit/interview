@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode237;
 
 
-import algorithm.Aleetcode2_链表.ListNode;
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * 删除某个链表中给定的（非末尾）节点，你将只被给定要求被删除的节点。

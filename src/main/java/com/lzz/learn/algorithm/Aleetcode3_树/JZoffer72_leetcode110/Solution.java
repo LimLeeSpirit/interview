@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.JZoffer72_leetcode110;
 
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
-import algorithm.Aleetcode3_树.TreeNode;
 
 /**
  * 给定一个二叉树，判断它是否是高度平衡的二叉树。

@@ -1,7 +1,5 @@
 package com.lzz.learn.designPattern.proxy;
 
-import designPattern.proxy.impl.UserDao;
-import designPattern.proxy.proxys.UserDaoStaticProxy;
 
 public class TestMain {
 //    @Test

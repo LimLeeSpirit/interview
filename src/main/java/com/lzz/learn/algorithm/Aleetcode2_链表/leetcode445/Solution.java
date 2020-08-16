@@ -1,7 +1,8 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode445;
 
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 import java.util.Stack;
 

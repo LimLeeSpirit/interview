@@ -1,11 +1,12 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode2;
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  *  两个整数 以逆序的形式存放在链表中，每个节点存放一个数字，计算这两个数的和，输出为链表形式
  *  比如： 数字 1345 + 36
- *             5->4->3->1
+ *             5->4-> 3->1
  *             6->3
  *  题目的数字是逆序的，减小了难度，但一些细节：空指针、边界条件 自己得多多注意呀！
  *

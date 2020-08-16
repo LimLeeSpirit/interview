@@ -1,6 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.JZoffer19;
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
 
 /**
  * 给定二叉树和 其中一个节点，找出这个节点的后继节点

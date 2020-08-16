@@ -1,6 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode3_树.JZoffer71_leetcode104_maxDepth;
 
-import algorithm.Aleetcode3_树.TreeNode;
+import com.lzz.learn.algorithm.Aleetcode3_树.TreeNode;
+
 
 import java.util.ArrayDeque;
 import java.util.Queue;

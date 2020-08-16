@@ -1,7 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode19;
 
 
-import algorithm.Aleetcode2_链表.ListNode;
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * 删除链表的倒数第 n 个节点

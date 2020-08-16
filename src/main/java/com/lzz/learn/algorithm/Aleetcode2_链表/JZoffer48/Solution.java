@@ -1,6 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.JZoffer48;
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * 请实现一个函数可以复制一个复杂链表。

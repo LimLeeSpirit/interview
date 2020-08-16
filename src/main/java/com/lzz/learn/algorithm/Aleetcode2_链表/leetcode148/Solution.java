@@ -1,6 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode148;
 
-import algorithm.Aleetcode2_链表.ListNode;
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  *  使用归并排序对链表进行排序。在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。

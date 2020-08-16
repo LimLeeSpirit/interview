@@ -1,6 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode143;
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  * 对链表重排序，l0-l1-l2-l3-l4.....ln 转换成 l0-ln-l1-l(n-1)-l2-l(n-2).....

@@ -1,7 +1,7 @@
 package com.lzz.learn.designPattern.proxy.proxys;
 
 
-import designPattern.proxy.IUserDao;
+import com.lzz.learn.designPattern.proxy.IUserDao;
 
 public class UserDaoStaticProxy implements IUserDao {
     private IUserDao iUserDao;

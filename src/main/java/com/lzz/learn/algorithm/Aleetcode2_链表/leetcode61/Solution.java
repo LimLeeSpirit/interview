@@ -1,6 +1,7 @@
 package com.lzz.learn.algorithm.Aleetcode2_链表.leetcode61;
 
-import algorithm.Aleetcode2_链表.ListNode;
+
+import com.lzz.learn.algorithm.Aleetcode2_链表.ListNode;
 
 /**
  *  旋转链表，相当于对链表右移位 K 位

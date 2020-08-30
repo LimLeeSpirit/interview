@@ -24,7 +24,7 @@ class Solution {
         ret = new ArrayList<>();
         v = new int[n];
 
-        dfs(nums, new ArrayList<Integer>());
+        dfs(nums, new ArrayList<>());
 
         return ret;
     }

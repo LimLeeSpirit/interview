@@ -24,9 +24,9 @@ public class Solution {
     public List<List<Integer>> combinationSum2(int[] nums, int target) {
         Arrays.sort(nums);
         n = nums.length;
-        ret = new ArrayList<List<Integer>>();
+        ret = new ArrayList<>();
 
-        dfs(nums, target, new ArrayList<Integer>(), 0, 0);
+        dfs(nums, target, new ArrayList<>(), 0, 0);
 
         return ret;
     }

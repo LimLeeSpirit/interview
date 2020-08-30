@@ -14,16 +14,16 @@ import java.util.Stack;
 public class Solution {
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        Map<Character, Character> parentMap = new HashMap<>();
-        parentMap.put(')', '(');
-        parentMap.put(']', '[');
-        parentMap.put('}', '{');
+        Map<Character, Character> dict = new HashMap<>();
+        dict.put(')', '(');
+        dict.put(']', '[');
+        dict.put('}', '{');
 
         for(int i = 0; i < s.length(); i ++) {
             Character c = s.charAt(i);
-            if (!parentMap.containsKey(c)) {
+            if (!dict.containsKey(c)) {
                 stack.add(c);
-            } else if (stack.empty() || (parentMap.get(c) != stack.pop())) {
+            } else if (stack.empty() || (dict.get(c) != stack.pop())) {
                 return false;
             }
         }

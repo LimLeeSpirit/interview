@@ -1,9 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode4_字符串.leetcode3;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 最长不重复子串

@@ -1,5 +1,6 @@
 package com.lzz.learn.algorithm.Aleetcode7_栈队列.leetcode155;
 
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
 
 /**

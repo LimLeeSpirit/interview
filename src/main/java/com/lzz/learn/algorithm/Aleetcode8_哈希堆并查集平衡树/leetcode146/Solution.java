@@ -15,7 +15,7 @@ class Solution {
     private int cur_size;
 
     public Solution(int capacity) {
-        map = new LinkedHashMap<Integer, Integer>();
+        map = new LinkedHashMap<>();
         this.max_size = capacity;
         this.cur_size = 0;
     }

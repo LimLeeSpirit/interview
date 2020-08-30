@@ -22,7 +22,7 @@ class Solution {
         // 用来记录该位置处的元素已经被用过
         visited = new int[n];
 
-        dfs(nums, new ArrayList<Integer>());
+        dfs(nums, new ArrayList<>());
 
         return res;
     }

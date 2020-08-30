@@ -14,7 +14,7 @@ import java.util.*;
  */
 public class Solution {
     public List<List<Integer>> printFromTopToBottom(TreeNode root) {
-        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+        List<List<Integer>> ret = new ArrayList<>();
         Queue<TreeNode> q = new ArrayDeque<>();
         if (root == null) return ret;
         q.offer(root);

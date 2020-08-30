@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * 时间复杂度有点操了，O（n^2），不过我有剪支的呀，怎么还是不对
+ * 时间复杂度有点操了，O（n^2）,不过我有剪支的呀，怎么还是不对
  */
 public class Interview3 {
     static boolean[] visited;

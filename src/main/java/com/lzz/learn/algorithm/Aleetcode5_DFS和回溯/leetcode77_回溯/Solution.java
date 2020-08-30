@@ -24,7 +24,7 @@ class Solution {
     List<List<Integer>> ret;
     public List<List<Integer>> combine(int n, int k) {
         ret = new ArrayList<>();
-        dfs(n, k, 1, new ArrayList<Integer>());
+        dfs(n, k, 1, new ArrayList<>());
         return ret;
     }
 

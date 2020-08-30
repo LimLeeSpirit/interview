@@ -51,7 +51,7 @@ public class F_QuickSort {
     }
 
     private static void quickSort(int[] nums) {
-        partition(0, nums.length-1, nums);
+        partition(0, nums.length - 1, nums);
     }
 
     public static void main(String[] args) {

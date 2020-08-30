@@ -9,7 +9,7 @@ package com.lzz.learn.algorithm.Aleetcode9_动态规划.leetcode53_最大子序�
 public class Solution {
 
     /**
-     * 这才是最能想到的DP好吗，，，DP[i] = max { DP[i-1], nums[i-1], 包含nums[i]在内的 maxEnd[i] }
+     * 这才是最能想到的DP好吗，，，DP[i] = max { DP[i-1],  [i-1], 包含nums[i]在内的 maxEnd[i] }
      * @param nums
      * @return
      */

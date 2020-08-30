@@ -12,7 +12,7 @@ package com.lzz.learn.algorithm.Aleetcode1_二分.leetcode240;
  * 所以直接从右上角往左下搜索就行了
  */
 public class Solution {
-    public boolean searchMatrix(int[][] nums, int target) {
+    public static boolean searchMatrix(int[][] nums, int target) {
         if (nums == null || nums.length == 0) return false;
         int m = nums.length;
         int n = nums[0].length;
@@ -23,5 +23,8 @@ public class Solution {
             else i ++;
         }
         return false;
+    }
+
+    public static void main(String[] args) {
     }
 }

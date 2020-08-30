@@ -22,9 +22,9 @@ import java.util.Scanner;
 public class Interview1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Queue<Integer> queue = new ArrayDeque<Integer>();
+        Queue<Integer> queue = new ArrayDeque<>();
 
-        int T = Integer.valueOf(in.nextLine());  //
+        int T = Integer.valueOf(in.nextLine());
         for (int i = 0; i < T; i ++) {
             int Q = Integer.valueOf(in.nextLine());
             for (int j = 0; j < Q; j ++) {

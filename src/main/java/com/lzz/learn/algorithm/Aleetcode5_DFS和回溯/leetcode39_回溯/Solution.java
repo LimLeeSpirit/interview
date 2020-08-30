@@ -21,7 +21,7 @@ public class Solution {
     public List<List<Integer>> combinationSum(int[] nums, int target) {
         Arrays.sort(nums);
         ret = new ArrayList<>();
-        dfs(nums, target, new ArrayList<Integer>(), 0, 0);
+        dfs(nums, target, new ArrayList<>(), 0, 0);
         return ret;
     }
 

@@ -27,7 +27,7 @@ public class Solution {
         int[] dy = {0, 0, -1, 1};
 
         boolean[][] v = new boolean[x][y];
-        Queue<int[]> q = new ArrayDeque<int[]>();
+        Queue<int[]> q = new ArrayDeque<>();
         q.offer(new int[]{0, 0});
 
         int ret = 0;

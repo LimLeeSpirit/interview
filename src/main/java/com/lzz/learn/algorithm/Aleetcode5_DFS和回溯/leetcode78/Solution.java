@@ -20,7 +20,7 @@ public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         res = new ArrayList<>();
         n = nums.length;
-        dfs(nums, 0, new ArrayList<Integer>());
+        dfs(nums, 0, new ArrayList<>());
         return res;
     }
 
@@ -28,8 +28,8 @@ public class Solution {
         res.add(new ArrayList<>(temp));
         for(int j = count; j < n; j ++) {
             temp.add(nums[j]);
-            dfs(nums, j+1, temp);
-            temp.remove(temp.size()-1);
+            dfs(nums, j + 1, temp);
+            temp.remove(temp.size() - 1);
         }
     }
 }

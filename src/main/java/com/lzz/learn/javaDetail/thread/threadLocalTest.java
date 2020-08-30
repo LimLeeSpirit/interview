@@ -9,9 +9,9 @@ package com.lzz.learn.javaDetail.thread;
  *    这个变量可以是 数据库链接
  * 1：用法
  * 主要有几个方法， 对于每个 ThreadLocal变量，有set、get、remove、initialValue方法，
- * get方法是用来获取 ThreadLocal 变量在当前线程中保存的变量副本
- * set用来设置当前线程中 ThreadLocal 变量的副本
- * remove用来移除当前线程中变量的副本
+ * get 方法是用来获取 ThreadLocal 变量在当前线程中保存的变量副本
+ * set 用来设置当前线程中 ThreadLocal 变量的副本
+ * remove 用来移除当前线程中变量的副本
  * initialValue()是一个protected方法，一般是用来在使用时进行重写的，它是一个延迟加载方法
  *
  * 2：原理
@@ -44,8 +44,8 @@ package com.lzz.learn.javaDetail.thread;
  * 只适用于独立变量副本的情况，每个线程的使用互不相干互相隔离。
  */
 public class threadLocalTest {
-    ThreadLocal<Long> longLocal = new ThreadLocal<Long>();
-    ThreadLocal<String> stringLocal = new ThreadLocal<String>();
+    ThreadLocal<Long> longLocal = new ThreadLocal<>();
+    ThreadLocal<String> stringLocal = new ThreadLocal<>();
 
     public void set() {
         longLocal.set(Thread.currentThread().getId());

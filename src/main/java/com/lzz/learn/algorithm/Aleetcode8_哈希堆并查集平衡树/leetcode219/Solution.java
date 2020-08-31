@@ -31,7 +31,7 @@ public class Solution {
          * 法2，维护一个长度为 k 的散列表,好聪明哦！
          * 反正要求就是相等的元素的下标差在 k 以内 + 以hash表判重
          */
-        Set<Integer> set = new HashSet<Integer>();
+        Set<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length; i ++) {
             if (set.contains(nums[i])) return true;
             set.add(nums[i]);

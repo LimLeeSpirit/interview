@@ -49,7 +49,7 @@ class Solution2 {
             Object o = key;
             linkedList.remove(o);
             linkedList.addLast(key);
-        }else{
+        } else {
             map.put(key, value);
             cur_size ++;
             linkedList.addLast(key);

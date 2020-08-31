@@ -11,6 +11,8 @@ import java.util.Map;
  * 输入：
  *   s = "barfoothefoobarman",
  *   words = ["foo","bar"]
+ *
+ *   该题的前提是单词地长度相同
  * 输出：[0,9]
  * 解释：
  * 从索引 0 和 9 开始的子串分别是 "barfoo" 和 "foobar" 。

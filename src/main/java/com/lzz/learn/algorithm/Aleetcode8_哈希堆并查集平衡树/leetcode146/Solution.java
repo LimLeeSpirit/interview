@@ -39,7 +39,7 @@ class Solution {
         }else{
             cur_size ++;
             map.put(key, value);
-            if(cur_size > max_size){
+            if(cur_size > max_size) {
                 int oldestKey = map.keySet().iterator().next(); // 获取最远的key。
                 map.remove(oldestKey);
                 cur_size --;

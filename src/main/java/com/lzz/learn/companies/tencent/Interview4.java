@@ -7,7 +7,7 @@ package com.lzz.learn.companies.tencent;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Interview4 {
     public static void main(String[] args) {
 //        ListNode head = deleteK();
         process();

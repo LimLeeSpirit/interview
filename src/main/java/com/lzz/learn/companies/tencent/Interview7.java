@@ -59,6 +59,8 @@ public class Interview7 {
                 return false;
             }
         }
+        // 如果是第一个字符串走完了，但是第二个没走完，才返回true，才需要交换；否则，就是其他情况，比如两个字符串都走完了
+        // 或者第一个没走完，只走完了第二个
         if (j >= k && j < z) {
             return true;
         } else {

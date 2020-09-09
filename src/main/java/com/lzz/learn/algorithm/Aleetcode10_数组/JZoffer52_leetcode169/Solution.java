@@ -21,6 +21,10 @@ import java.util.Map;
  * time O(n), space O(1)
  */
 public class Solution {
+    public static void main(String[] args) {
+        int[] nums = {1,2,3,4};
+        System.out.println();
+    }
     public int moreThanHalfNum_Solution(int[] nums) {
         int cnt = 0, val = 0;
         for (int a : nums) {
@@ -53,5 +57,19 @@ public class Solution {
             }
         }
         return -1;
+    }
+
+    public static int binarySearch(int[] nums, int target) {
+        int l = 0;
+        int r = nums.length;
+        while (l < r) {
+            int mid = l + r >> 1;
+            if (nums[mid] >= target) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return nums[l] == target ? l : -1;
     }
 }

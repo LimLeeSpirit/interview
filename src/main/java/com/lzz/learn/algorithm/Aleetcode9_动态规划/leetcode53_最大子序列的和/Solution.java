@@ -31,7 +31,7 @@ public class Solution {
         int last = 0;
         int ret = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i ++) {
-            int now = Math.max(last, 0) + nums[i];
+            int now = Math.max(last, 0) + nums[i]; // last 的含义是截止到当前位置，包括当前元素的最大子序和
             ret = Math.max(ret, now);
             last = now;
         }

@@ -17,7 +17,7 @@ package com.lzz.learn.algorithm.Aleetcode1_二分.leetcode34_模版题;
  *      if (nums[mid] <= k) 答案在右半区，且 mid 可能是答案，故[l, r] -> [mid, r];
  *          否则，[l, r] -> [l, mid - 1]。由于出现了 -1 操作，故需要在计算 mid 的时候 + 1。
  *
- *          在出现了 l = mid - 1 的时候，需要在计算 mid 的时候，写成 mid = l + r + 1 >> 1;
+ *          在出现了 r = mid - 1 的时候，需要在计算 mid 的时候，写成 mid = l + r + 1 >> 1;
  *          是因为这相当于是对(l + r)/2 向上取整；
  *          如果不这样，在 l + 1 = r 的时候， mid = l + r >> 1 = 2l + 1 >> 1 = l;
  *          如果 达到了 l = mid 的情况，区间[l, r]  变化为  [mid, r] = [l, r]，所以会造成死循环
@@ -30,7 +30,7 @@ public class Solution {
         int[] ret = new int[2];
 
         // 先找左端点
-        int l = 0, r = nums.length-1;
+        int l = 0, r = nums.length - 1;
         while (l < r) {
             int mid =  l + r >> 1;
             if (nums[mid] < target) {

@@ -26,14 +26,13 @@ public class LongestCommonSubStr {
 
         for (int i = 1; i <= m; i ++) {
             for (int j = 1; j <= n; j ++) {
+                // 判断i j 位置是否是相同，
                 if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
                     DP[i][j] = DP[i - 1][j - 1] + 1;
                     if (DP[i][j] > max_len) {
                         max_len = DP[i][j];
                         end_idx = i;
                     }
-                } else {
-                    DP[i][j] = 0;
                 }
             }
         }

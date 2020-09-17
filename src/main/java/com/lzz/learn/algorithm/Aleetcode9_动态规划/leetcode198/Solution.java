@@ -13,6 +13,10 @@ package com.lzz.learn.algorithm.Aleetcode9_动态规划.leetcode198;
  * 这题其实是告诉我们动态变量可以不只一个
  */
 public class Solution {
+    public static void main(String[] args) {
+        System.out.println("5" + 3);
+        System.out.println("5" + '3');
+    }
     public int rob(int[] nums) {
         int n = nums.length;
 
@@ -22,7 +26,7 @@ public class Solution {
         // g[i] 代表前 i 个数中 选   第i个数的所有选法的最大值
         int[] g = new int[n + 1];
 
-        for (int i = 1; i <= n; i ++) {
+        for (int i = 1; i <= n; i ++)  {
             f[i] = Math.max(f[i - 1], g[i - 1]);
 
             g[i] = f[i - 1] + nums[i - 1];

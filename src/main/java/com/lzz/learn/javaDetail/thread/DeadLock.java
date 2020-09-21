@@ -40,8 +40,8 @@ public class DeadLock{
 //                    dl.read();
 //                }
 //            }.start();
-            new Thread(()-> dl.read()).start();
-            new Thread(()-> dl.write()).start();
+            new Thread(() -> dl.read()).start();
+            new Thread(() -> dl.write()).start();
         }
     }
 }

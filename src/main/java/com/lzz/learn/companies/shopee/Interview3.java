@@ -1,7 +1,5 @@
 package com.lzz.learn.companies.shopee;
 
-import com.sun.tools.javac.comp.Check;
-
 import java.util.Arrays;
 
 /**

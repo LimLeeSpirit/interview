@@ -50,7 +50,7 @@ public class E_MergeSort {
      */
     private static void merge(int ls, int rs, int re, int[] tmp, int[] nums) {
         int le = rs - 1;
-        // tmpStart 代表此次元素放在 tmp 的哪个下标位置，
+        // tmp_idx 代表此次元素放在 tmp 的哪个下标位置，
         int tmp_idx = ls;
         int length = re - ls + 1;
         while (ls <= le && rs <= re) {

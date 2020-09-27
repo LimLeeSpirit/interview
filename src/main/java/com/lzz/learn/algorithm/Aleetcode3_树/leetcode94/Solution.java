@@ -17,7 +17,7 @@ public class Solution {
     List<Integer> list;
     // 大神给的非递归的解法，其实就是根据中序的规律来做的，非递归，那自己就得开一个栈来模拟递归，太精辟了。
     public List<Integer> inorderTraversal(TreeNode root) {
-        list = new ArrayList<Integer>();
+        list = new ArrayList<>();
         // 手动开一个栈，模拟递归操作
         LinkedList<TreeNode> stack = new LinkedList<>();
 

@@ -21,7 +21,7 @@ public class ConsistingHash implements Serializable {
     /**
      * key表示服务器的hash值，value表示服务器的名称
      */
-    private static SortedMap<Integer, String> sortedMap = new TreeMap<Integer, String>();
+    private static SortedMap<Integer, String> sortedMap = new TreeMap<>();
 
     /**
      * 程序初始化，将所有的服务器放入sortedMap中

@@ -9,10 +9,11 @@ public class Solution {
      * 一分钟就写出
      */
     public static int mySqrt(int x) {
-        // if ( x == 0 || x == 1) { return x; }
+        if ( x <= 1) { return x; }
         int l = 0, r = x;
         while (l < r) {
-            int mid = l + r + 1>> 1;
+            // 注意去掉多余的迭代
+            int mid = l + r + 1 >> 1;
             if (mid > x / mid) r = mid - 1;
             else l = mid;
         }
